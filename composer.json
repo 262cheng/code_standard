@@ -1,0 +1,20 @@
+{
+  "name": "code_standard",
+  "description": "编码规范(psr4)",
+  "type": "scripts",
+  "authors": [
+    {
+      "name": "262cheng",
+      "email": "262cheng@gmail.com"
+    }
+  ],
+  "support": {
+    "wiki": "http://cf.meitu.com/confluence/pages/viewpage.action?pageId=38755767"
+  },
+  "keywords": [
+    "standards"
+  ],
+  "require": {
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
