@@ -6,7 +6,7 @@ else
     PRE_COMMIT_EXISTS=0
 fi
 
-cp ./vendor/wide/code_standard/pre-commit ./.git/hooks/pre-commit
+cp ./vendor/code_standard/pre-commit ./.git/hooks/pre-commit
 chmod +x ./.git/hooks/pre-commit
 
 if [ "$PRE_COMMIT_EXISTS" = 0 ]; then
